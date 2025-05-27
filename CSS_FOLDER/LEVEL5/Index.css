@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+     padding: 5px; 
+    }
+nav a {
+    text-decoration: none;
+    margin-right: 55px;
+    padding: 5px;
+}
+header {
+    background-color: blue;
+    height: 30px;
+}
