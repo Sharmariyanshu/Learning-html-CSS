@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box Sizing</title>
+    <style>
+        * {margin: 0; padding: 0;}
+        button {
+            height: 100px; width: 100px;
+            border: 4px solid black;
+            background-color: aqua;
+        }
+        #button1 { box-sizing: border-box}
+        #button2 { box-sizing: content-box}
+    </style>
+</head>
+<body>
+    <button id="button1">Click me</button><br>
+    <button id="button2">Click me</button>
+</body>
+</html>
