@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position Preperty</title>
+    <style>
+        * {
+            margin: 0; padding: 0;
+        }
+
+        .box {
+            height: 60px;
+            width: 60px;
+            background-color: green;
+            margin: 20px;
+        }
+        #box1 {
+            position: static;
+        }
+        #box2 {
+            position: relative;
+            top: 20px;
+            left: 80px;
+        }
+        #box3 {
+            position: fixed;
+            top: 20px;
+        }
+        #box4 {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box"> 1 STATIC</div>
+    <div id="box2" class="box"> 2 RELATIVE</div>
+    <div id="box3" class="box"> 3 FIXED</div>
+    <div id="box4" class="box"> 4 ABSOLUTE</div>
+</body>
+</html>
