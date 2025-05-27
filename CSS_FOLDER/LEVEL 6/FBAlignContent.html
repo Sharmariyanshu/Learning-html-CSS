@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox Align Content</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            margin-right: 5px;
+        }
+        #heading {text-align: 200px}
+        #container {
+            height: 600;
+            width: 600;
+            padding: 10px;
+            margin: 20px;
+            border: 3px solid black;
+            background-color: aquamarine;
+
+            display: flex;
+            flex-direction: row;
+            justify-content:center; /*flex-start, flex-end,center, space-between/around/evenly */
+            flex-wrap: wrap;
+            align-content:center;
+
+        }
+        #box1 { background-color: aqua;}
+        #box2 { background-color: palevioletred;}
+        #box3 { background-color: red;}
+        #box4 { background-color: blue;}
+        #box5 { background-color: rgb(2, 32, 32);}
+        #box6 { background-color: rgb(92, 138, 102);}
+        #box7 { background-color: rgb(142, 21, 113);}
+        #box8 { background-color: rgb(101, 101, 182);}
+    </style>
+</head>
+<body>
+    <h1 id="heading">Flex Box Direction</h1>
+    <div id="container">
+        <div id="box1" class="box">Flex Item 1</div>
+        <div id="box2" class="box">Flex Item 2</div>
+        <div id="box3" class="box">Flex Item 3</div>
+        <div id="box4" class="box">Flex Item 4</div>
+        <div id="box5" class="box">Flex Item 5</div>
+        <div id="box6" class="box">Flex Item 6</div>
+        <div id="box7" class="box">Flex Item 7</div>
+        <div id="box8" class="box">Flex Item 8</div>
+    </div>
+</body>
+</html>
