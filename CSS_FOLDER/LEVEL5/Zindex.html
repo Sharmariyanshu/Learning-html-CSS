@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Position Property Z index</title>
+</head>
+<style>
+    * {
+        margin: 0; padding: 0;
+    }
+    .container {
+        position: relative;
+    }
+    .box1, .box2 {
+        position: absolute;
+        border: 3px solid black;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        font-size: 25px;
+    }
+    .box1 {
+        background-color: rgb(173, 110, 154);
+        left: 20px;
+        top: 60px;
+        z-index: 2;
+    }
+    .box2 {
+        background-color: rgb(37, 169, 221);
+        left: 60px;
+        top: 20px;
+        z-index: 1;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box1">Z-index 2</div>
+         <div class="box2">Z-index 1</div>
+    </div>
+</body>
+</html>
